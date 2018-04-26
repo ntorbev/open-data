@@ -1,0 +1,15 @@
+input {
+  height: 40px;
+  background: #fff;
+  left: 0;
+
+  color: #101f28;
+  position: absolute;
+  padding-right: 40px;
+  width: 100%;
+  z-index: 0;
+}
+
+ul {
+  padding-top: 50px;
+}

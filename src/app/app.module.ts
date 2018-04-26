@@ -1,8 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
 import { AppComponent } from './app.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { WorldBankService } from './worldBank.service';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -10,9 +11,11 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [WorldBankService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
