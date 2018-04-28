@@ -1,3 +1,12 @@
+Download or clone https://github.com/ntorbev/proxy.git 
+1. npm i 
+2 npm start
+
+In this repo (https://github.com/ntorbev/open-data)
+1 npm i 
+2 npm run client 
+
+
 # OpenData
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
